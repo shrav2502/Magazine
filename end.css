@@ -1,0 +1,306 @@
+.parent {
+  height: 800px;
+  width: 900px;
+  border: 1px solid;
+  margin: auto;
+  z-index: 0;
+  position: relative;
+  background-color: white;
+}
+
+.text {
+  z-index: 4;
+  height: 70px;
+  width: 400px;
+  position: absolute;
+  margin-left: 310px;
+  margin-top: 340px;
+  font-family: Brush Script MT;
+  font-size: 90px;
+  font-weight: bolder;
+}
+.one {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: pink;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 400px;
+  animation: one 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+
+@keyframes one {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(0px, 20px);
+  }
+}
+
+.two {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: pink;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 50px;
+  animation: two 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes two {
+  0% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translate(40px);
+  }
+}
+
+.three {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: pink;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 550px;
+  animation: three 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes three {
+  0% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translate(-40px);
+  }
+}
+
+.four {
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 140px solid lightgreen;
+  width: 0;
+  height: 0;
+  margin-left: -35px;
+  margin-top: 50px;
+  position: absolute;
+  animation: four 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes four {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-65deg);
+  }
+}
+
+.five {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 140px solid lightgreen;
+  margin-top: 650px;
+  margin-left: 250px;
+  position: absolute;
+  animation: five 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes five {
+  0% {
+    transform: rotate(-65deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.six {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid lightgreen;
+  margin-top: 550px;
+  margin-left: 800px;
+  position: absolute;
+  animation: six 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes six {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(65deg);
+  }
+}
+
+.seven {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 140px solid lightgreen;
+  margin-left: 680px;
+  position: absolute;
+  animation: six 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes seven {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.eight {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: pink;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 300px;
+  animation: eight 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes eight {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(0px, -30px);
+  }
+}
+
+.nine {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid lightgreen;
+  margin-top: 350px;
+  margin-left: 350px;
+  position: absolute;
+  animation: nine 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes nine {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(65deg);
+  }
+}
+
+.ten {
+  background: #75def9;
+  width: 150px;
+  height: 75px;
+  position: absolute;
+  border-radius: 50% / 100% 100% 0 0;
+  margin-top: 350px;
+  animation: ten 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes ten {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(80deg);
+  }
+}
+
+.eleven {
+  background: #75def9;
+  width: 150px;
+  height: 75px;
+  position: absolute;
+  border-radius: 50% / 100% 100% 0 0;
+  margin-top: 650px;
+  margin-left: 600px;
+  animation: eleven 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes eleven {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-70deg);
+  }
+}
+
+.twelve {
+  background: #75def9;
+  width: 150px;
+  height: 75px;
+  position: absolute;
+  border-radius: 50% / 100% 100% 0 0;
+  margin-top: 350px;
+  margin-left: 700px;
+  animation: twelve 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes twelve {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(150deg);
+  }
+}
+
+.thirteen {
+  background: #75def9;
+  width: 150px;
+  height: 75px;
+  position: absolute;
+  border-radius: 50% / 100% 100% 0 0;
+  margin-top: 30px;
+  margin-left: 360px;
+  animation: thirteen 3s linear;
+  animation-iteration-count: one;
+  animation-fill-mode: forwards;
+}
+@keyframes thirteen {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(170deg);
+  }
+}
+
+a {
+  font-size: 20px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: #eee;
+  text-decoration: none;
+  font-weight: 700;
+}
